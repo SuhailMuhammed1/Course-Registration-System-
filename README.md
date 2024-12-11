@@ -29,8 +29,8 @@ This is a Django-based web application for managing courses and student registra
 
 ## Screenshots
 
-![Course-Registration-12-11-2024_06_02_PM](https://github.com/user-attachments/assets/90b65124-3a9e-49c4-a2fd-8f06f977129e)
-![Course-Registration-12-11-2024_06_01_PM](https://github.com/user-attachments/assets/33ef4ddc-7141-4aef-b9c3-d758d1f64b74)
-![Course-Registration-12-11-2024_06_00_PM](https://github.com/user-attachments/assets/cadb6da6-d2b0-4ce0-ab44-8e5c3877bf55)
 ![Course-Registration-System](https://github.com/user-attachments/assets/543e3384-8983-4af1-b2b2-013049d5e4c3)
+![Course-Registration-12-11-2024_06_00_PM](https://github.com/user-attachments/assets/cadb6da6-d2b0-4ce0-ab44-8e5c3877bf55)
+![Course-Registration-12-11-2024_06_01_PM](https://github.com/user-attachments/assets/33ef4ddc-7141-4aef-b9c3-d758d1f64b74)
+![Course-Registration-12-11-2024_06_02_PM](https://github.com/user-attachments/assets/90b65124-3a9e-49c4-a2fd-8f06f977129e)
 
