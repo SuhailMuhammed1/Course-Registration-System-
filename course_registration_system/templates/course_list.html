@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Course Registration System</h1>
+<h3>Available Courses</h3>
+
+<!--Course List-->
+<table class="table" border="1px solid">
+    <thead>
+        <tr>
+            <th>Course Title</th>
+            <th>Description</th>
+            <th>Enrolled</th>
+            <th>Capacity</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for course in courses %}
+        <tr>
+            <td>{{ course.title }}</td>
+            <td>{{ course.description }}</td>
+            <td>{{ course.current_enrolled }}</td>
+            <td>{{ course.maximum_capacity }}</td>
+            <td>
+                {% if course.current_enrolled >= course.maximum_capacity %}
+                <span style="color: red;">Full</span>
+                {% else %}
+                <span style="color: green;">Available</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% empty %} <!--This shows when there are no courses data available-->
+        <tr>
+            <td colspan="5" style="text-align: center;">No courses available. Please add a course.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<a href="/add_course/" class="btn btn-primary">Add Course</a>
+<a href="/register/" class="btn btn-primary">Course Registration for Students</a>
+
+{% endblock %}
