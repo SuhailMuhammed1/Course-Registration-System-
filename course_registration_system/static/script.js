@@ -1,4 +1,4 @@
-// Function to display messages and hide after 5 seconds
+// function to display messages
 function displayMessage() {
   var messageBox = document.getElementById("message-box");
   if (messageBox) {

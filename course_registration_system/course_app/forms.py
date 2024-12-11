@@ -1,7 +1,7 @@
 from django import forms
 from .models import *
 
-class CourseRegistrationForm(forms.Form):
+class CourseRegistrationForm(forms.Form):  # form for registering students
     name = forms.CharField(max_length=100)
     email = forms.EmailField()
     course = forms.ModelChoiceField(queryset=Course.objects.all(), empty_label="Select a course")
